@@ -3090,9 +3090,9 @@ hr {
   top: 0;
   height: 100%;
   width: 100%;
- /* background-color: #ffffff;*/
+  background-color: #00000087;
   content: "";
-  opacity: .50;
+  /*opacity: .50;*/
 }
 
 .page-title .title-outer{
@@ -3105,8 +3105,8 @@ hr {
 }
 
 .page-title h1{
-    color: #1370b5;
-    font-size: 48px;
+    color: #7cdb27 !important;
+    font-size: 38px;
     font-weight: 700;
     line-height: 1.2em;
     margin: 0 0px;
@@ -3126,14 +3126,14 @@ hr {
 .page-breadcrumb{
   font-size: 15px;
   line-height: initial;
-  margin: 5px -15px 10px;
+  margin: 10px -15px 10px;
 }
 
 .page-breadcrumb li{
   position:relative;
   display:inline-block;
-  color:rgba(0,0,0,0.75);
-  font-size:18px;
+  color:#fff;
+  font-size:16px;
   font-weight:500;
   padding: 0 18px;
   line-height: 24px;
@@ -3147,8 +3147,8 @@ hr {
   content: "\f179";
   font-family: 'flaticon';
   display: inline-block;
-  font-size: 18px;
-  color: #000;
+  font-size: 14px;
+  color: #fff;
 }
 
 .page-breadcrumb li:last-child::after{
@@ -3156,7 +3156,7 @@ hr {
 }
 
 .page-breadcrumb li a{
-  color:rgba(0,0,0,0.75);
+  color:#fff;
   text-transform: capitalize;
   -webkit-transition:all 0.3s ease;
   -moz-transition:all 0.3s ease;
@@ -4341,7 +4341,7 @@ hr {
   position: relative;
   background-color: #ffffff;
   border-radius: 15px 15px 0 0;
-  padding: 30px 20px;
+  padding: 50px 20px;
   text-align: center;
   overflow: hidden;
   box-shadow: 0 5px 20px rgba(0,0,0,0.1);
@@ -4411,7 +4411,7 @@ hr {
 }
 
 .feature-block-four .icon {
-  font-size: 60px;
+  font-size: 55px;
   line-height: 1em;
   color: #7fc540;
   display: inline-block;
@@ -4420,11 +4420,12 @@ hr {
 }
 
 .feature-block-four h4{
-  font-size: 20px;
-  line-height: 1.2em;
-  font-weight: 700;
-  margin-bottom: 15px;
-  transition: all 300ms ease;
+     font-size: 20px;
+    line-height: 1.2em;
+    font-weight: 700;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    transition: all 300ms ease;
 }
 
 .feature-block-four .text{
@@ -5320,7 +5321,7 @@ About Section Four
 .services-section{
   position: relative;
   padding: 80px 0 30px;
-  background-color: #f5f5f5;
+  background-color: #fafafa;
 }
 
 .services-section:before{
@@ -5746,7 +5747,7 @@ About Section Four
   position: relative;
   background-repeat: no-repeat;
   background-position: left top;
-  padding: 80px 0;
+  padding: 80px 0 50px;
   background-color: #fafafa;
 }
 
@@ -6802,7 +6803,7 @@ Portfolio Section
 
 .team-section{
   position: relative;
-  padding: 120px 0;
+  padding: 80px 0;
 }
 
 .team-section.alternate{
@@ -7584,7 +7585,7 @@ Portfolio Section
 
 .appointment-section:before{
   content: "";
-  background-color: #ffffff;
+  background-color: #fafafa;
   height: 110px;
   z-index: 1;
 }
@@ -7656,7 +7657,8 @@ Portfolio Section
 
 .appointment-section .image-column .image img{
   display: block;
-  width: 100%;
+  /*width: 100%;*/
+  float: right;
 }
 
 /*** 
@@ -10647,12 +10649,14 @@ form .response .text-info{
 }
 
 .contact-form-two input,
-.contact-form-two select {
+.contact-form-two select,
+.contact-form-two textarea {
   border: 1px solid #00000024 !important;
 }
 
 .contact-form-two input:focus,
-.contact-form-two select:focus
+.contact-form-two select:focus,
+.contact-form-two textarea:focus
  {
   border: 1px solid #7fc540 !important;
 
@@ -10929,11 +10933,11 @@ form .response .text-info{
 
 .main-footer .logo{
   position:relative;  
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .main-footer .logo img  {
-  max-width: 120px;
+  max-width: 240px;
 }
 
 .main-footer .footer-logo figure{
@@ -10967,7 +10971,7 @@ form .response .text-info{
   position: relative;
   min-height: 70px;
   padding-left: 100px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .recent-posts .post:last-child{
@@ -10978,7 +10982,7 @@ form .response .text-info{
   position: absolute;
   left: 0;
   top: 0;
-  height: 70px;
+  height: 65px;
   width: 70px;
   overflow: hidden;
 }
@@ -11046,7 +11050,7 @@ form .response .text-info{
   color: #ffffff;
   font-weight: 900;
   font-family: "Font Awesome 5 Free";
-  content: "\f067";
+  content: "\f105";
   -webkit-transition: all 300ms ease;
   -moz-transition: all 300ms ease;
   -ms-transition: all 300ms ease;
@@ -11082,7 +11086,7 @@ form .response .text-info{
 .main-footer .contact-list li{
   position: relative;
   padding-left: 70px;
-  margin-bottom: 22px;
+  margin-bottom: 30px;
 }
 
 .main-footer .contact-list li:last-child{
@@ -13855,7 +13859,7 @@ Sidebar Page Container
 
 .terms-and-condition{
   position: relative;
-  padding: 120px 0;
+  padding: 80px 0;
   background-color: #f9fafc;
 }
 
@@ -14704,4 +14708,19 @@ Sidebar Page Container
     background-repeat: no-repeat;
     background-position: center center;
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAAAXNSR0IArs4c6QAAA3hJREFUaAXlm8+K00Acx7MiCIJH/yw+gA9g25O49SL4AO3Bp1jw5NvktC+wF88qevK4BU97EmzxUBCEolK/n5gp3W6TTJPfpNPNF37MNsl85/vN/DaTmU6PknC4K+pniqeKJ3k8UnkvDxXJzzy+q/yaxxeVHxW/FNHjgRSeKt4rFoplzaAuHHDBGR2eS9G54reirsmienDCTRt7xwsp+KAoEmt9nLaGitZxrBbPFNaGfPloGw2t4JVamSt8xYW6Dg1oCYo3Yv+rCGViV160oMkcd8SYKnYV1Nb1aEOjCe6L5ZOiLfF120EjWhuBu3YIZt1NQmujnk5F4MgOpURzLfAwOBSTmzp3fpDxuI/pabxpqOoz2r2HLAb0GMbZKlNV5/Hg9XJypguryA7lPF5KMdTZQzHjqxNPhWhzIuAruOl1eNqKEx1tSh5rfbxdw7mOxCq4qS68ZTjKS1YVvilu559vWvFHhh4rZrdyZ69Vmpgdj8fJbDZLJpNJ0uv1cnr/gjrUhQMuI+ANjyuwftQ0bbL6Erp0mM/ny8Fg4M3LtdRxgMtKl3jwmIHVxYXChFy94/Rmpa/pTbNUhstKV+4Rr8lLQ9KlUvJKLyG8yvQ2s9SBy1Jb7jV5a0yapfF6apaZLjLLcWtd4sNrmJUMHyM+1xibTjH82Zh01TNlhsrOhdKTe00uAzZQmN6+KW+sDa/JD2PSVQ873m29yf+1Q9VDzfEYlHi1G5LKBBWZbtEsHbFwb1oYDwr1ZiF/2bnCSg1OBE/pfr9/bWx26UxJL3ONPISOLKUvQza0LZUxSKyjpdTGa/vDEr25rddbMM0Q3O6Lx3rqFvU+x6UrRKQY7tyrZecmD9FODy8uLizTmilwNj0kraNcAJhOp5aGVwsAGD5VmJBrWWbJSgWT9zrzWepQF47RaGSiKfeGx6Szi3gzmX/HHbihwBser4B9UJYpFBNX4R6vTn3VQnez0SymnrHQMsRYGTr1dSk34ljRqS/EMd2pLQ8YBp3a1PLfcqCpo8gtHkZFHKkTX6fs3MY0blKnth66rKCnU0VRGu37ONrQaA4eZDFtWAu2fXj9zjFkxTBOo8F7t926gTp/83Kyzzcy2kZD6xiqxTYnHLRFm3vHiRSwNSjkz3hoIzo8lCKWUlg/YtGs7tObunDAZfpDLbfEI15zsEIY3U/x/gHHc/G1zltnAgAAAABJRU5ErkJggg==);
+}
+
+.fancybox-slide>* {
+      height: 550px !important;
+}
+
+
+.video-slide:after {
+      content: "";
+    background: #fff;
+    position: absolute;
+    bottom: 0;
+    height: 124px;
+    width: 100%;
+    left: 0;
 }
