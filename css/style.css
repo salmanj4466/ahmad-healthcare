@@ -7176,8 +7176,9 @@ Portfolio Section
 .team-block-two .image-box .image img{
   display: block;
   width: 100%;
-  height: auto;
-  filter: grayscale(1);
+      object-fit: contain;
+    height: 250px;
+  /*filter: grayscale(1);*/
   -webkit-transition: all 500ms ease;
   -moz-transition: all 500ms ease;
   -ms-transition: all 500ms ease;
@@ -7199,7 +7200,7 @@ Portfolio Section
 .team-block-two .info-box .name{
   position: relative;
   display: block;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.2em;
   color: #000000;
   font-weight: 600;
@@ -7212,7 +7213,7 @@ Portfolio Section
 .team-block-two .info-box .designation{
   position: relative;
   color: #1370b5;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 27px;
   font-weight: 600;
 }
@@ -10928,7 +10929,11 @@ form .response .text-info{
 
 .main-footer .logo{
   position:relative;  
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+}
+
+.main-footer .logo img  {
+  max-width: 120px;
 }
 
 .main-footer .footer-logo figure{
@@ -10942,15 +10947,14 @@ form .response .text-info{
 
 .main-footer .about-widget .text{
   position: relative;
-  margin-bottom: 40px;
-}
+ }
 
 .main-footer .about-widget .text p{
   font-size: 14px;
-  line-height: 30px;
+  line-height: 28px;
   color: #ffffff;
   font-weight: 400;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 
 /*Recent Posts*/
@@ -11030,7 +11034,7 @@ form .response .text-info{
   position: relative;
   display: block;
   font-weight: 400;
-  margin-bottom: 18px;
+  margin-bottom: 12px;
 }
 
 .user-links li a:before{

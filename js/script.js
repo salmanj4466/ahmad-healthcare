@@ -163,6 +163,31 @@
 		});    		
 	}
 
+
+//Services Carousel
+	if ($('.team-carousel').length) {
+		$('.team-carousel').owlCarousel({
+			loop:true,
+			margin:0,
+			nav:false,
+			smartSpeed: 700,
+			autoplayTimeout:10000,
+			autoplay: false,
+			navText: [ '<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>' ],
+			responsive:{
+				0:{
+					items:1
+				},
+				768:{
+					items:2
+				},
+				1024:{
+					items:3
+				}
+			}
+		});    		
+	}
+
 	//Single Item Carousel
 	if ($('.single-item-carousel').length) {
 		$('.single-item-carousel').owlCarousel({
