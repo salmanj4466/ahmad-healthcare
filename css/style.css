@@ -1,6 +1,6 @@
 /*
-Template Name: Medicoz
-Author: Listdo
+Template Name: Gicoh
+Author: Gicoh
 Version: 1.0.0
 
 /************ TABLE OF CONTENTS ***************
@@ -313,7 +313,7 @@ li {
 
 .social-icon-one li {
   position: relative;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 .social-icon-one li:last-child{
@@ -3167,7 +3167,7 @@ hr {
 
 .page-breadcrumb li a:hover{
   opacity: .9;
-  color: #1370b5;
+  color: #7fc540;
 }
 
 /*** 
@@ -3857,7 +3857,7 @@ hr {
   position: relative;
   display: flex;
   align-items: center;
-  min-height: 700px;
+  min-height: 670px;
 }
 
 .banner-section-three .content-box {
@@ -5460,7 +5460,7 @@ About Section Four
   position: relative;
   background-repeat: no-repeat;
   background-position: left top;
-  padding: 120px 0;
+  padding: 80px 0;
   background-image: url(../images/icons/pattern-5.png);
   background-color: #fafafa;
 }
@@ -11365,7 +11365,7 @@ Sidebar Page Container
 
 .sidebar-page-container{
   position:relative;
-  padding:120px 0px 70px;
+  padding: 80px 0px 40px;
 }
 
 .sidebar-page-container .sidebar{
